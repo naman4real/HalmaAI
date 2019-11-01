@@ -78,7 +78,7 @@ def WhiteMove(b,r,c,themove,t):
             temprow = temprow - 1
             tempcol = tempcol
             jumps.append((temprow, tempcol))
-        elif r - 1 >= 0 and c - 1 >=0and b[r - 1][c -1] == '.':  # t
+        elif r - 1 >= 0 and c - 1 >=0 and b[r - 1][c -1] == '.':  # t
             temprow = temprow - 1
             tempcol = tempcol - 1
             jumps.append((temprow, tempcol))
